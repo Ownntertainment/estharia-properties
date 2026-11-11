@@ -1,1 +1,164 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estharia Properties | Houses for Rent in Kenya</title>
+<meta name="description" content="Find rental houses and apartments in Bungoma and across Kenya. Advertise your property with Estharia Properties.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f5f7fa;color:#26352f;line-height:1.6}
+header{background:#123d32;color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.logo{font-size:22px;font-weight:bold}
+.logo span{color:#e9b957}
+nav a{color:white;text-decoration:none;margin-left:14px;font-size:14px}
+.hero{background:linear-gradient(120deg,#123d32,#26765a);color:white;text-align:center;padding:65px 18px}
+.hero h1{font-size:35px;margin-bottom:12px}
+.hero p{font-size:17px;margin-bottom:23px}
+.search{background:white;padding:14px;border-radius:10px;max-width:700px;margin:auto;display:flex;gap:10px;flex-wrap:wrap}
+.search input,.search select{padding:13px;border:1px solid #ddd;border-radius:6px;flex:1;min-width:130px}
+.btn{display:inline-block;background:#e9b957;color:#173b2e;padding:13px 22px;border:0;border-radius:6px;font-weight:bold;text-decoration:none;cursor:pointer}
+section{padding:50px 6%}
+.section-title{text-align:center;margin-bottom:28px}
+.section-title h2{font-size:27px;color:#123d32}
+.section-title p{color:#687782}
+.empty{background:white;border-radius:12px;padding:32px 18px;text-align:center;border:1px dashed #b8c8c0}
+.empty h3{color:#123d32;margin-bottom:8px}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.feature{background:white;padding:23px;border-radius:10px;text-align:center;box-shadow:0 3px 12px #0000000b}
+.symbol{font-size:35px;margin-bottom:10px}
+.feature h3{color:#123d32;margin-bottom:8px}
+.landlord{background:#e8f1ec;text-align:center}
+.landlord h2{font-size:27px;color:#123d32;margin-bottom:12px}
+.landlord p{margin-bottom:17px}
+.contact{background:white;text-align:center}
+.contact p{margin:9px}
+.contact a{color:#176b4d;font-weight:bold;text-decoration:none}
+footer{background:#123d32;color:white;text-align:center;padding:28px 15px}
+footer p{font-size:13px;margin:6px}
+footer a{color:#e9b957;text-decoration:none}
+@media(max-width:600px){
+.hero h1{font-size:28px}
+header{justify-content:center}
+nav a{margin:0 7px}
+.search{flex-direction:column}
+.search input,.search select{width:100%}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">ESTHARIA <span>PROPERTIES</span></div>
+<nav>
+<a href="#home">Home</a>
+<a href="#properties">Houses</a>
+<a href="#landlords">Landlords</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<h1>Find Your Perfect Home</h1>
+<p>Discover rental houses and apartments in Bungoma and across Kenya.</p>
+<div class="search">
+<input type="text" id="location" placeholder="Enter town or location">
+<select id="type">
+<option value="">All property types</option>
+<option>Single room</option>
+<option>Bedsitter</option>
+<option>One bedroom</option>
+<option>Two bedrooms</option>
+<option>Three bedrooms</option>
+<option>Commercial property</option>
+</select>
+<button class="btn" onclick="searchHouses()">Find Houses</button>
+</div>
+</div>
+
+<section id="properties">
+<div class="section-title">
+<h2>Available Properties</h2>
+<p>Find your next home with Estharia Properties.</p>
+</div>
+<div class="empty">
+<div class="symbol">🏠</div>
+<h3>New properties coming soon!</h3>
+<p>We are preparing our first property listings in Bungoma.</p>
+<p>Contact us if you are looking for a house.</p>
+<a class="btn" href="https://wa.me/254704455719?text=Hello%20Estharia%20Properties.%20I%20am%20looking%20for%20a%20house." style="margin-top:15px">Ask About Available Houses</a>
+</div>
+</section>
+
+<section>
+<div class="section-title">
+<h2>Why Choose Estharia?</h2>
+<p>Connecting landlords and tenants in Kenya.</p>
+</div>
+<div class="features">
+<div class="feature">
+<div class="symbol">🏡</div>
+<h3>Find Houses</h3>
+<p>Discover rental homes in your preferred location.</p>
+</div>
+<div class="feature">
+<div class="symbol">🤝</div>
+<h3>Direct Contact</h3>
+<p>Connect with landlords and property managers.</p>
+</div>
+<div class="feature">
+<div class="symbol">📢</div>
+<h3>Advertise Property</h3>
+<p>Give your vacant property greater visibility.</p>
+</div>
+<div class="feature">
+<div class="symbol">🇰🇪</div>
+<h3>Kenya Focused</h3>
+<p>Starting in Bungoma and expanding nationwide.</p>
+</div>
+</div>
+</section>
+
+<section class="landlord" id="landlords">
+<h2>Are You a Landlord?</h2>
+<p>Advertise your vacant house and reach potential tenants.</p>
+<p>Contact Estharia Properties to learn about our paid listing packages.</p>
+<a class="btn" href="https://wa.me/254704455719?text=Hello%20Estharia%20Properties.%20I%20want%20to%20advertise%20my%20property.">Advertise Your Property</a>
+<p style="font-size:12px;margin-top:14px">Landlord registration and online payments are coming soon.</p>
+</section>
+
+<section class="contact" id="contact">
+<div class="section-title">
+<h2>Contact Estharia Properties</h2>
+<p>We are ready to help you find or advertise a property.</p>
+</div>
+<p>📞 Phone: <a href="tel:+254704455719">0704455719</a></p>
+<p>💬 WhatsApp: <a href="https://wa.me/254704455719">Chat with us</a></p>
+<p>✉️ Email: <a href="mailto:igtrippie@gmail.com">igtrippie@gmail.com</a></p>
+<p>📍 Bungoma, Kenya</p>
+</section>
+
+<footer>
+<div class="logo">ESTHARIA <span>PROPERTIES</span></div>
+<p>Your Property. Your Opportunity.</p>
+<p>Bungoma, Kenya | Expanding Nationwide</p>
+<p>Phone: 0704455719</p>
+<p>Email: <a href="mailto:igtrippie@gmail.com">igtrippie@gmail.com</a></p>
+<p>© 2026 Estharia Properties. All rights reserved.</p>
+</footer>
+
+<script>
+function searchHouses(){
+const location=document.getElementById('location').value.trim();
+const type=document.getElementById('type').value;
+let message="Hello Estharia Properties. I am looking for a house.";
+if(location) message+=" Location: "+location+".";
+if(type) message+=" Property type: "+type+".";
+window.open("https://wa.me/254704455719?text="+encodeURIComponent(message),"_blank");
+}
+</script>
+
+</body>
+</html>
